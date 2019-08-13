@@ -22,6 +22,7 @@ async function _loadModel(
   pathOrIOHandler,
   modelUrl,
 ) {
+  console.log("here")
   if (modelUrl) {
     console.log("modelUrl = ", modelUrl)
     return await tf.loadLayersModel(modelUrl, pathOrIOHandler);
