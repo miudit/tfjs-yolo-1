@@ -158,6 +158,8 @@ async function v3tiny(
   pathOrIOHandler = v3_tiny_model,
   modelUrl = null,
 ) {
+  console.log("hogehogehoge")
+  /*
   let model = await _loadModel(pathOrIOHandler, modelUrl);
 
   return {
@@ -191,6 +193,7 @@ async function v3tiny(
       model = null;
     }
   }
+  */
 }
 
 async function v3(
