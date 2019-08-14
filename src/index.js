@@ -25,7 +25,7 @@ async function _loadModel(
   console.log("here")
   if (modelUrl) {
     console.log("modelUrl = ", modelUrl)
-    return await tf.loadLayersModel(modelUrl, pathOrIOHandler);
+    return await tf.loadLayersModel(modelUrl);
   } else {
     return await tf.loadLayersModel(pathOrIOHandler);
   }
@@ -155,8 +155,7 @@ async function v2tiny(
 }
 
 async function v3tiny(
-  pathOrIOHandler = v3_tiny_model,
-  modelUrl = null,
+  modelUrl = null
 ) {
   console.log("hogehogehoge")
   /*
