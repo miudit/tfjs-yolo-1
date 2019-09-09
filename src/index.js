@@ -23,7 +23,7 @@ async function _loadModel(
   modelUrl,
 ) {
   if (modelUrl) {
-    return await tf.loadGraphModel(modelUrl, pathOrIOHandler);
+    //return await tf.loadGraphModel(modelUrl, pathOrIOHandler);
   } else {
     //return await tf.loadLayersModel(pathOrIOHandler);
   }
