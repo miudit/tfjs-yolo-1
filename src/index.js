@@ -51,8 +51,6 @@ async function _predict(
     let imageTensor = tf.browser.fromPixels(canvas, 3);
     imageTensor = imageTensor.expandDims(0).toFloat().div(tf.scalar(255));
 
-    console.log("imageTensor = ", imageTensor)
-
     const outputs = model.predict(imageTensor);
     return outputs;
   });
