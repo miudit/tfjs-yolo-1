@@ -22,11 +22,9 @@ async function _loadModel(
   pathOrIOHandler,
   modelUrl,
 ) {
-  console.log("_loadModel")
   if (modelUrl) {
     return await tf.loadGraphModel(modelUrl, pathOrIOHandler);
   } else {
-    console.log("load = loadLayersModel")
     return await tf.loadLayersModel(pathOrIOHandler);
   }
 }
@@ -159,6 +157,7 @@ async function v3tiny(
   modelUrl = null,
 ) {
   let model = await _loadModel(pathOrIOHandler, modelUrl);
+  console.log("model summary = ", model.summary())
 
   return {
     predict: async function (
