@@ -4,7 +4,8 @@ export const v2_tiny_model = 'https://raw.githubusercontent.com/shaqian/tfjs-yol
 
 export const v3_tiny_model = 'https://raw.githubusercontent.com/shaqian/tfjs-yolo-demo/master/dist/model/v3tiny/model.json';
 
-export const v3_model = 'https://raw.githubusercontent.com/shaqian/tfjs-yolo-demo/master/dist/model/v3/model.json';
+//export const v3_model = 'https://raw.githubusercontent.com/shaqian/tfjs-yolo-demo/master/dist/model/v3/model.json';
+export const v3_model = 'https://raw.githubusercontent.com/miudit/tfjs-yolo/master/models/tfjs_models/yolov3-tf2-tiny/model.json'
 
 export const v1_tiny_anchors = [
   1.08,1.19, 3.42,4.41, 6.63,11.38, 9.42,5.11, 16.62,10.52
