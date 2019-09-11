@@ -2,8 +2,7 @@ export const v1_tiny_model = 'https://raw.githubusercontent.com/shaqian/tfjs-yol
 
 export const v2_tiny_model = 'https://raw.githubusercontent.com/shaqian/tfjs-yolo-demo/master/dist/model/v2tiny/model.json';
 
-//export const v3_tiny_model = 'https://raw.githubusercontent.com/shaqian/tfjs-yolo-demo/master/dist/model/v3tiny/model.json';
-export const v3_tiny_model = 'https://raw.githubusercontent.com/miudit/tfjs-yolo/master/models/tfjs_models/yolov3-tf2-tiny/model.json';
+export const v3_tiny_model = 'https://raw.githubusercontent.com/shaqian/tfjs-yolo-demo/master/dist/model/v3tiny/model.json';
 
 export const v3_model = 'https://raw.githubusercontent.com/shaqian/tfjs-yolo-demo/master/dist/model/v3/model.json';
 
